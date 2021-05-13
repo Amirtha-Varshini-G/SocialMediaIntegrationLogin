@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         this.setTitle("Social Media Integration");
-        text= (TextView) findViewById(R.id.textView6);
+        text= (TextView) findViewById(R.id.textView7);
         login = (LoginButton) findViewById(R.id.login_button);
         login.setPermissions("email","public_profile", "user_birthday","user_posts");
         callbackManager = CallbackManager.Factory.create();
